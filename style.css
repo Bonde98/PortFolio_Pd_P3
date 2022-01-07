@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+body{ 
+    margin: 0;
+    padding: 0%;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    height: 30vh;
+    background-color: rgb(34, 6, 70);
+    color: #fff;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000;
+    
+}  
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+   
+}
+nav a:hover{
+    color: hsl(0, 100%, 100%);
+    border-bottom: 1px solid hsl(0, 8%, 73%) ;
+}
+
+header .principal h4{
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.contact p{
+    font-size:20px;
+   
+}
+@media screen and(max-width: 710px){
+     h4 {
+        padding-bottom: 20px;}
+    
+    
+}
+
+.offre{
+    height: 100%;
+    padding: 30px;
+    background-color: #000;
+    color: white;
+    
+}
+.offre,p,h1{
+    text-align: center;
+    align-items: center;
+}
+.offre .offre-carte{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+}
+
+.offre .offre-carte .carte{
+    
+    color:#fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.offre .offre-carte .carte img{
+    height: 100px;
+    
+}
+
+.partenaire{
+    padding: 20px;
+    padding-bottom: 80px;
+   
+}
+.partenaire h1{
+    text-align: center;
+    color: #fff;
+}
+.partenaire .partenaire-image{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    
+    
+}
+.partenaire .partenaire-image p img{
+    margin-right: 30px;
+    height: 40px;
+    
+}
+
+.projets{
+    align-items: center;
+    text-align: center;
+    color:000;
+}
+.formation {
+    align-items: center;
+    text-align: center;
+    background-color:#000;
+    color: #fff;
+}
+
+.footer{
+    align-items: center;
+    text-align: center;
+    background-color:000;
+    color: #fff;
+    margin-right: 10px;
+    background-color:#000;
+}
+
+.copy{
+    color: #fff;
+   font-size: 20px;
+}
+
+
