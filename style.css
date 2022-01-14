@@ -26,7 +26,7 @@ nav a{
    
 }
 nav a:hover{
-    color: hsl(0, 100%, 100%);
+    color: rgb(234, 238, 16);
     border-bottom: 1px solid hsl(0, 8%, 73%) ;
 }
 
